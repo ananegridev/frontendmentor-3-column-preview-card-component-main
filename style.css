@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: var(--light-gray);
+  background-color: var(--light-gray);
+}
+
+/* ----------COLORS--------- */
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --white: hsla(0, 0%, 100%, 0.75);
+  --light-gray: hsl(0, 0%, 95%);
+}
+
+/* ----------FONTS--------- */
+
+.font-title {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+
+.font-text {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 39px 0px;
+}
+
+p {
+  color: var(--white);
+}
+
+/* ----------PAGE--------- */
+
+.container {
+  display: flex;
+  width: 920px;
+  height: 500px;
+}
+
+.one,
+.two,
+.tree {
+  padding: 45px 50px 45px 45px;
+}
+
+.one {
+  background-color: var(--orange);
+}
+.one a {
+  color: var(--orange);
+}
+.two {
+  background-color: var(--dark-cyan);
+}
+.two a {
+  color: var(--dark-cyan);
+}
+.tree {
+  background-color: var(--very-dark-cyan);
+}
+.tree a {
+  color: var(--very-dark-cyan);
+}
+
+.box-button {
+  margin-top: 86px;
+}
+
+a {
+  background-color: var(--light-gray);
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 11px 30px;
+}
+
+a:hover {
+  background-color: transparent;
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+
+/* ----------MEDIA--------- */
+
+@media only screen and (max-width: 950px) {
+  body {
+    align-items: flex-start;
+  }
+  .container {
+    width: 330px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
