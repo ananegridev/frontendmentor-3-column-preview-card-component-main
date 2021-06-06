@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links 🖱️
 
-- Solution URL: [Click Here](https://anywtf-solution-3-column-preview-card-component-main.netlify.app/)
+- Solution URL: [GitHub Pages](https://ananegridev.github.io/frontendmentor-3-column-preview-card-component-main/)
 
 ## My process 📝
 
