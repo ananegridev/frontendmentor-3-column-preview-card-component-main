@@ -11,7 +11,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: [Page Frontend Mentor]()
-- Live Site URL: [Page Public]()
+- Live Site URL: [Page Public](https://frontendmentor-3-column-preview-card-component-main-plum.vercel.app/)
 
 ### Built with
 
