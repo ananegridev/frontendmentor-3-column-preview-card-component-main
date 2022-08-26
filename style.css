@@ -1,0 +1,189 @@
+/* COLOR */
+
+:root {
+
+--bright-orange: hsl(31, 77%, 52%);
+--darkcyan: hsl(184, 100%, 22%);
+--verydarkcyan: hsl(179, 100%, 13%);
+
+--transparentwwhite: hsla(0, 0%, 100%, 0.75);
+--verylightgray: hsl(0, 0%, 95%);
+
+  }
+  
+  /* CSS RESET */
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  /* FONT */
+  
+  .f-lexend-regular {
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .f-bigshoulders-bold {
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  
+  /* CSS */
+
+  body{
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--verylightgray);
+  }
+
+  main{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+  }
+
+  main section
+  {
+    width: 33%;
+    min-height: 400px;
+    padding: 21px 41px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-sedan div,
+  .card-suv div,
+  .card-luxury div{
+    width: 100% !important;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  img{
+    width: 50px;
+  }
+
+  h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--verylightgray);
+  }
+  p{
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--transparentwwhite);
+  }
+
+  .card-sedan{
+    background-color: var(--bright-orange);
+    border-radius: 5px 0 0 5px;
+  }
+  .card-suv{
+    background-color: var(--darkcyan);
+  }
+  .card-luxury{
+    background-color: var(--verydarkcyan);
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  button{
+    width: 130px !important;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .btn-sedan{
+    color: var(--bright-orange);
+    background-color: var(--verylightgray);
+  }
+  .btn-sedan:hover{
+    color: var(--verylightgray);
+    background-color: var(--bright-orange);
+    border: 2px solid var(--verylightgray);;
+  }
+
+  .btn-suv{
+    color: var(--darkcyan);
+    background-color: var(--verylightgray);
+  }
+  .btn-suv:hover{
+    color: var(--verylightgray);
+    background-color: var(--darkcyan);
+    border: 2px solid var(--verylightgray);
+  }
+
+  .btn-luxury{
+    color: var(--verydarkcyan);
+    background-color: var(--verylightgray);
+  }
+  .btn-luxury:hover{
+    color: var(--verylightgray);
+    background-color: var(--verydarkcyan);
+    border: 2px solid var(--verylightgray);
+  }
+
+  /* RESPONSIVE */
+
+@media only screen and (max-width: 768px) {
+    main{
+        max-width: 300px;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px ;
+    }
+
+    main section
+    {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .card-sedan{
+        
+        border-radius: 5px 5px 0px 0px;
+      }
+      .card-luxury{
+
+        border-radius: 0px 0px 5px 5px;
+      }
+    .card-sedan p{
+        padding-right: 10px;
+    }
+    .card-luxury p{
+        padding-right: 12px;
+    }
+}
+
+  /* CSS CREDITS*/
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 8px;
+    color: var(--slightlyttransparentwhite);
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .attribution a {
+    text-decoration: none;
+    color: var(--bright-orange);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .attribution {
+      position: inherit;
+    }
+  }
