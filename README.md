@@ -6,11 +6,11 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 
-![]()
+![](https://github.com/ananegridev/frontendmentor-3-column-preview-card-component-main/blob/main/images/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Page Frontend Mentor]()
+- Solution URL: [Page Frontend Mentor](https://www.frontendmentor.io/solutions/solution-3-column-preview-card-component-EqXLBHTPho)
 - Live Site URL: [Page Public](https://frontendmentor-3-column-preview-card-component-main-plum.vercel.app/)
 
 ### Built with
